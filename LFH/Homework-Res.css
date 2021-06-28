@@ -1,0 +1,32 @@
+/* CSS Document */
+body{
+	margin-bottom: 50px;
+}
+
+img{
+	opacity: 90%;
+	transition: opacity ease-in-out 0.3s;
+}
+img:hover{
+	opacity: 100%;
+}
+
+#row1{
+	
+}
+
+#row1L{
+	background: url("images/DoctorStrange-Big.jpg") center;
+	background-size: cover;
+	height: 400px;
+	opacity: 90%;
+	transition: opacity ease-in-out 0.3s;
+}
+#row1L:hover{
+	opacity: 100%;
+}
+
+#row1R{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}

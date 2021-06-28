@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+	<link href="index.css" rel="stylesheet">
+	  
+    <title>ITE-302</title>
+  </head>
+  <body>
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <div class="container">
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item active">
+				<a class="nav-link" href="week6.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" onClick="goToDiv('Thor')" href="#">Thor</a>
+			  </li>	
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Dropdown
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="#">Action</a>
+				  <a class="dropdown-item" href="#">Another action</a>
+				  <div class="dropdown-divider"></div>
+				  <a class="dropdown-item" href="#">Something else here</a>
+				</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			  </li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+			  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		  </div>
+	  </div> <!-- container -->
+	</nav>
+
+	<div id="master" class="mt-2">
+		<div class="container">
+			
+			<div class="text-white text-center h1 mb-5">
+				<big>
+					Thai-Nichi Institute of Technology
+					<br>Web Responsive
+				</big>
+			</div> <!-- text -->
+			
+			<div class="col-lg-8 mx-auto">
+				<form action="" method="post">
+					<div class="form-row">
+						<div class="col-md-9 mb-2 mb-md-0">
+							<input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+						</div>
+						<div class="col-md-3">
+							<button class="btn btn-lg btn-primary btn-block">Submit !</button>
+						</div>
+					</div>
+				</form>
+			</div> <!-- input -->
+			
+		</div> <!-- container -->
+	</div> <!-- master -->
+
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-md">
+				<div><img src="images/CaptainAmerica.jpg" class="img-fluid rounded"></div>
+				<div class="h3 text-center mt-2">Captain America</div>
+				<div class="text-center">Captain America is a superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby.</div>
+			</div>
+			<div class="col-md mt-4 mt-md-0">
+				<div><img src="images/DoctorStrange.jpg" class="img-fluid rounded"></div>
+				<div class="h3 text-center mt-2">Doctor Strange</div>
+				<div class="text-center">Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios.</div>
+			</div>
+			<div class="col-md mt-4 mt-md-0" id="Thor">
+				<div><img src="images/Thor.jpg" class="img-fluid rounded"></div>
+				<div class="h3 text-center mt-2">Thor</div>
+				<div class="text-center">Thor is a 2011 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures.</div>
+			</div>
+		</div> <!-- 3 columns -->
+	</div> 
+	  
+	<div class="row no-gutters mt-5 bg-info" id="row1">
+		<div class="col-lg my-auto" id="row1Left">
+			<div class="col-10 mx-auto">
+				<div class="h1">Captain America</div>
+				<div>
+					<big>
+						Captain America is a superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby. Captain America is a superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby.
+					</big>	
+				</div>
+			</div>
+		</div> 
+		<div class="col-lg" id="row1Right">
+		
+		</div>
+	</div>
+	<div class="row no-gutters text-light" id="row2" style="background-color: #7F7F7F;">
+		<div class="col-lg my-auto order-lg-2 order-1" id="row2Top">
+			<div class="col-10 mx-auto">
+				<div class="h1">Doctor Strange</div>
+				<div>
+					<big>
+						Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios. Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios.
+					</big>	
+				</div>
+			</div>
+		</div> 
+		<div class="col-lg order-lg-1 order-2" id="row2Bottom">
+		
+		</div>
+	</div>  
+	  
+	<!-- ภาพเลื่อน -->
+	<div class="container">
+		<div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <a href="http://www.tni.ac.th" target="_blank">
+			  	<img class="d-block w-100" src="images/CaptainAmerica-big.jpg" alt="First slide">
+			  </a>
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="images/DoctorStrange-Big.jpg" alt="Second slide">
+			  <div class="carousel-caption d-none d-md-block">
+				<h5>Second slide label</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Previous</p>
+  			  </div>
+			</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+	
+	<div class="container-fluid">
+		<div id="carouselExampleIndicators2" class="carousel slide mt-5" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <a href="http://www.tni.ac.th" target="_blank">
+			  	<img class="d-block w-100" src="images/CaptainAmerica-big.jpg" alt="First slide">
+			  </a>
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="images/DoctorStrange-Big.jpg" alt="Second slide">
+			  <div class="carousel-caption d-none d-md-block">
+				<h5>Second slide label</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Previous</p>
+  			  </div>
+			</div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>  
+	  
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
+
+<script type="text/javascript">
+function goToDiv( div ){
+	$('html, body').animate({
+		easing: 'easeOutElastic',
+		scrollTop: ($('#' + div).offset().top - 20)
+	},1500);
+}
+</script>

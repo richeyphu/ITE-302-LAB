@@ -1,0 +1,59 @@
+/* CSS Document */
+body{
+	margin-bottom: 50px;
+}
+
+img{
+	opacity: 90%;
+	transition: opacity ease-in-out 0.3s;
+}
+img:hover{
+	opacity: 100%;
+}
+
+#master{
+	background: url("images/ocean.jpg") center;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#row1{
+	
+}
+
+#row1Left{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#row1Right{
+	background: url("images/CaptainAmerica-big.jpg") center;
+	background-size: cover;
+	height: 400px;
+	opacity: 90%;
+	transition: opacity ease-in-out 0.3s;
+}
+#row1Right:hover{
+	opacity: 100%;
+}
+
+#row2{
+	
+}
+
+#row2Top{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#row2Bottom{
+	background: url("images/DoctorStrange-Big.jpg") center;
+	background-size: cover;
+	height: 400px;
+	opacity: 90%;
+	transition: opacity ease-in-out 0.3s;
+}
+#row2Bottom:hover{
+	opacity: 100%;
+}
