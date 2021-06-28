@@ -1,0 +1,28 @@
+/* CSS Document */
+.boxCenter{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mt15{
+	margin-top: 15px;
+}
+.mt22{
+	margin-top: 22px;
+}
+.bgGreen{ background: #C1F195 }
+.bgOrange{ background: #EAAE67 }
+.clearFloat{ clear: both; }
+.radiusLeft{ border-radius: 8px 0px 0px 8px; }
+.radiusRight{ border-radius: 0px 8px 8px 0px; }
+
+#row1{
+	display: flex;
+}
+#row1 div{
+	width: 470px;
+	float: left;
+	padding: 15px;
+	text-align: justify;
+	flex: 1;
+}

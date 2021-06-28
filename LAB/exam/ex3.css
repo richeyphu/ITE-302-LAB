@@ -1,0 +1,38 @@
+/* CSS Document */
+.boxCenter{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bgGreen{ background: #C1F195 }
+.bgOrange{ background: #EAAE67 }
+.clearFloat{ clear: both; }
+.radiusLeft{ border-radius: 8px 0px 0px 8px; }
+.radiusRight{ border-radius: 0px 8px 8px 0px; }
+.postIT{
+	position: absolute; /* ตัวที่ใช้แปะ */
+	background: rgba(237,230,190,0.8);
+	padding: 8px;
+	border-radius: 6px;
+}
+
+#row1{
+	
+}
+#row1 div{
+	width: 470px;
+	float: left;
+	padding: 15px;
+	text-align: justify;
+}
+#board{
+	position: relative;
+}
+#board div{
+	width: auto;
+}
+#post1{
+	top: 50px;
+	left: 370px;
+	z-index: 1;
+}

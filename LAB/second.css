@@ -1,0 +1,35 @@
+/* CSS Document */
+/* . = class , # = id */
+.boxCenter{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mt15{ margin-top: 15px; }
+.bgOrange{ background: #F4BC8E; }
+.bgBlue{ background: #ADD7F6; }
+.clearFloat{ clear: both; }
+.radiusLeft{ border-radius: 8px 0px 0px 8px; } /* top-left top-right bottom-right bottom-left */
+.radiusRight{ border-radius: 0px 8px 8px 0px; }
+
+#row1{
+	background: #35EEC0;
+	padding: 15px;
+	width: 970px; /* 15 + 970 + 15 = 1000 */
+	border-radius: 10px; 
+	transition: background ease-in-out 0.2s;
+}
+#row1:hover{
+	background: #e817d3;
+	color: #FFFFFF;
+}
+
+#row2{
+	
+}
+#row2 div{
+	width: 470px; /* 15 + 470 + 15 = 500 */
+	float: left; /* ไม่ให้จองพื้นที่ทั้งแถว */
+	padding: 15px;
+	text-align: justify;
+}

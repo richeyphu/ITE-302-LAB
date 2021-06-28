@@ -1,0 +1,25 @@
+/* CSS Document */
+
+body{
+	font-family: 'Heveltica';
+	font-size: 20px;
+	color: #424246;
+	margin: 0px;
+}
+
+h1, h2, h3{
+	font-family: 'Heveltica';
+	margin: 0px;
+}
+
+.textRed{ color:#DB2629; }
+.textBlue{ color:#1B2BB9; }
+
+.mt20{ margin-top:20px; }
+.mt25{ margin-top:25px; }
+
+.boxCenter{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1500px;
+}

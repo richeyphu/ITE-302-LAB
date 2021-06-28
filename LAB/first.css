@@ -1,0 +1,33 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mitr&display=swap');
+/*
+font-family: 'Mitr', sans-serif;	//Header
+font-family: 'Kanit', sans-serif;	//Content
+*/
+
+body{
+	font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+	color: #424246;
+	margin: 0px;
+}
+
+h1, h2, h3{
+	font-family: 'Mitr', sans-serif;
+	margin: 0px;
+}
+
+.textGreen{ color:#26AB4D; }
+.textOrange{ color:#E67D1F; }
+.textRed{ color:#DB2629; }
+
+.mt15{ margin-top:15px; }
+.mt20{ margin-top:20px; }
+
+.boxCenter{
+	/*margin:0px auto 0px auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}

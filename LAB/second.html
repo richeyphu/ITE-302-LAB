@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Untitled Document</title>
+	<link href="second.css" rel="stylesheet">
+</head>
+	
+<body>
+	
+	<table width="600" border="1" align="center" cellpadding="6" cellspacing="0">
+		<thead>
+			<tr align="left">
+				<th width="80" align="center">No.</th>
+				<th>Item</th>
+				<th width="150">Price</th>
+			</tr> <!-- tr = แถว , th/td = ช่อง -->
+		</thead>
+		<tbody>
+			<tr>
+				<td align="center">1.</td>
+				<td>เลย์ รสกะเพรากรอบ</td>
+				<td>20 บาท</td>
+			</tr>
+			<tr>
+				<td align="center">2.</td>
+				<td>ปาปิก้า</td>
+				<td>25 บาท</td>
+			</tr>
+			<tr>
+				<td align="center">3.</td>
+				<td>คอร์นพับ รสข้าวโพด</td>
+				<td>30 บาท</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th colspan="2" align="right">ราคารวม</th>
+				<td><u>75 บาท</u></td>
+			</tr>
+		</tfoot>
+	</table>
+	
+	
+	<!-------------------------------->
+	
+	<h2 align="center">Lorem Ipsum</h2> <!-- h1 >> h6 -->
+	
+	<div id="row1" class="boxCenter mt15" align="justify">
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	</div>
+
+	<div id="row2" class="boxCenter mt15">
+			<div class="bgBlue radiusLeft">
+				<h4 align="center">Content 1</h4><br>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+			<div class="bgOrange radiusRight">
+				<h4 align="center">Content 2</h4><br>
+				In ante metus dictum at tempor. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Magna fringilla urna porttitor rhoncus. Vel fringilla est ullamcorper eget nulla facilisi etiam. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Adipiscing commodo elit at imperdiet dui accumsan sit amet. Lobortis mattis aliquam faucibus purus in massa. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. 
+				In ante metus dictum at tempor. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Magna fringilla urna porttitor rhoncus. Vel fringilla est ullamcorper eget nulla facilisi etiam. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Adipiscing commodo elit at imperdiet dui accumsan sit amet. Lobortis mattis aliquam faucibus purus in massa. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. 
+			</div>
+	</div>
+	
+	<br class="clearFloat">
+	
+</body>
+</html>
+
+<!-- ทำให้กล่อง column สูงเท่ากันหมด -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+
+<script> $('#row2  div').matchHeight(); </script>

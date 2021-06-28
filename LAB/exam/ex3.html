@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Untitled Document</title>
+		<link href="ex3.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1 align="center">Example 3</h1>
+		
+	<div id="row1" class="boxCenter">
+	  <div class="bgGreen radiusLeft">
+				<table width="200" border="1" align="center" cellpadding="8" cellspacing="0">
+					<thead align="center">
+				  <th colspan="2">Topic</th>
+					</thead>
+					<tbody>
+						<tr>
+						<td>Fullname</td>
+						<td>John Young</td>
+					</tr>
+					<tr>
+						<td>Fullname</td>
+						<td>Tata Sum</td>
+					</tr>
+					</tbody>
+		</table>
+			</div>
+			<div id="board" class="bgOrange radiusRight">
+				<div id="post1" class="postIT">Topic 1</div>
+			</div>
+		</div>
+		<br class="clearFloat">
+	</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+
+<script> $('#row1  div').matchHeight(); </script>
